@@ -32,4 +32,4 @@ if __name__ == '__main__':
     print(timeit.timeit(lambda: print(f'{sum(p.map(find_pi, [N//P]*P))/P:0.7f}'), number=10))
     p.close()
     p.join()
-    print(f'{N} total iterations with {P} processes\n')
+    print(f'{N} total iterations with {P} processes')
